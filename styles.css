@@ -1,0 +1,136 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #b484da;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+blockquote {
+    background: #f1f1f1;
+    border-left: 2px solid #7534aa;
+    color: #444;
+    display: block;
+    font-style: oblique;
+    line-height: 20px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+}
+
+.left {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.right {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+body {
+    background: #fff url('image/background_body.jpg') repeat-x top;
+    color: #666;
+    font: 0.7em Verdana, "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+}
+
+#listado {
+    background-color: #b484da;
+    color: #555;
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    line-height: 20px;
+}
+
+#listado ul {
+    margin: 5spx;
+}
+
+#listado ul li {
+    border-bottom: 1px solid #7534aa;
+    list-style: none;
+    padding: 5px 2px;
+}
+
+#listado ul li a {
+    color: #333;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    text-decoration: none;
+}
+
+
+/* header */
+
+#header {
+    background: url('image/background_header.jpg');
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    width: 760px;
+}
+
+#header:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#header h1 {
+    color: #666;
+    font-size: 40px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 30px;
+}
+
+#header p {
+    bottom: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 10px;
+    position: absolute;
+    left: 300px;
+}
+
+#header ul {
+    list-style: none;
+    position: absolute;
+    top: 100px;
+}
+
+#header ul li {
+    list-style: none;
+}
+
+#header ul li a {
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 700;
+    height: 20px;
+    padding: 10px;
+    width: 190px;
+}
+
+#header ul li a:hover {
+    background: #b484da;
+    color: #eee;
+    text-decoration: none;
+}
